@@ -1,0 +1,35 @@
+﻿@page
+@using MealTipCalculator.Pages
+@model IndexModel
+@{
+    ViewData["Title"] = "Meal Tip Calculator";
+}
+
+<h2>Meal Tip Calculator</h2>
+
+@if (!Model.IsValid)
+{
+    <div class="alert alert-danger">
+        <strong>Error!</strong> @Model.ValidationErrorMessage
+    </div>
+}
+
+<form method="post">
+    <label for="mealCost">Enter the cost of the meal:</label>
+    <input type="text" id="mealCost" name="MealCost" asp-for="MealCost" />
+    <button type="submit">Calculate Tips</button>
+    <a asp-page="./Index">Clear</a>
+</form>
+
+@if (Model.Tip15.HasValue)
+{
+    <p>15% Tip: $@Model.Tip15</p>
+}
+@if (Model.Tip20.HasValue)
+{
+    <p>20% Tip: $@Model.Tip20</p>
+}
+@if (Model.Tip25.HasValue)
+{
+    <p>25% Tip: $@Model.Tip25</p>
+}
