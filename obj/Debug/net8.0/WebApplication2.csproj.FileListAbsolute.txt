@@ -28,3 +28,4 @@ C:\Users\abelr\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\ref
 C:\Users\abelr\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\WebApplication2.pdb
 C:\Users\abelr\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\WebApplication2.genruntimeconfig.cache
 C:\Users\abelr\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\ref\WebApplication2.dll
+C:\Users\abelr\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\WebApplication2.sourcelink.json
